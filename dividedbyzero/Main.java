@@ -1,8 +1,13 @@
-public static void main(String[] args) {
+package CallExceptionMethods;
+
+public class Main {
+
+    public static void main(String[] args) {
         try {
-        System.out.println(3/0);
+            // Call a method here that may throw an exception
         } catch (Exception e) {
-        } catch (ArithmeticException e) {
-        System.out.printf("Caught runtime exception = %s\n", e.getMessage());
+            // Handle the exception here
         }
-        }
+    }
+
+}
